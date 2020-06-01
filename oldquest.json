@@ -1,0 +1,342 @@
+[
+    {
+      "mapIcon": "/images/icons/soccerball.png",
+      "hint": "no duct tape needed",
+      "elements": [
+        {
+          "type": "scrollingText",
+          "content": {
+            "src": "/uploads/c267f3e0-2760-400e-b3e1-eded8099f2cc.wav",
+            "lines": [
+              {
+                "text": "dinner is served by presenting you your plate",
+                "startTime": 1084,
+                "endTime": 4406
+              },
+              {
+                "text": "who might leave you in a different state",
+                "startTime": 5303,
+                "endTime": 7403
+              },
+              {
+                "text": "maybe all you need is a kick in the rear",
+                "startTime": 8090,
+                "endTime": 10679
+              },
+              {
+                "text": "so hurry on up get your ass into gear",
+                "startTime": 11356,
+                "endTime": 13809
+              },
+              {
+                "text": "i hope you keep searching until you exhaust",
+                "startTime": 14606,
+                "endTime": 17237
+              },
+              {
+                "text": "how far will you go and what will it cost",
+                "startTime": 18020,
+                "endTime": 20572
+              }
+            ]
+          },
+          "options": { "fadeIn": 1200 }
+        },
+        {
+          "type": "inputText",
+          "content": "",
+          "validation": {
+            "validationType": "text",
+            "value": "emma",
+            "options": { "caseInsensitive": true }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/beaker.png",
+      "hint": "it's a crossword cmon",
+      "elements": [
+        {
+          "type": "text",
+          "content": "Well I finally figured out your celebrity look-alike, of course it wouldn't be until after we ended things. Rearrange the photos below by dragging and dropping pieces. Once it's completed, you can fill in the name. I honestly cannot believe that I didn't think of this person before. I had the biggest crush on her growing up."
+        },
+        {
+          "type": "crossword",
+          "content": ""
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/beaker.png",
+      "hint": "The movie was High Fidelity",
+      "elements": [
+        {
+          "type": "text",
+          "content": "Well I finally figured out your celebrity look-alike, of course it wouldn't be until after we ended things. Rearrange the photos below by dragging and dropping pieces. Once it's completed, you can fill in the name. I honestly cannot believe that I didn't think of this person before. I had the biggest crush on her growing up."
+        },
+        {
+          "type": "imageScramble",
+          "content": {
+            "imageUrl": "/images/celebphoto.jpg",
+            "squareSize": 100
+          }
+        },
+        {
+          "type": "imageScramble",
+          "content": {
+            "imageUrl": "/images/celebphoto3.jpg",
+            "squareSize": 150
+          }
+        },
+        {
+          "type": "inputTextGroup",
+          "content": "",
+          "validation": {
+            "validationType": "textArray",
+            "value": [["c", "a", "t", "h", "e", "r", "i", "n", "e"], ["z", "e", "t", "a"], ["j", "o", "n", "e", "s"]],
+            "defaultValue": [["", "", "", "", "", "", "", "", ""], ["", "", "", ""], ["", "", "", "", ""]],
+            "options": { "caseInsensitive": true }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/macandcheese.png",
+      "hint": "I miss Tuesday nights here",
+      "elements": [
+        {
+          "type": "scrollingText",
+          "content": {
+            "src": "/uploads/77da3fce-3c94-482a-997a-b3e8b05b20d8.wav",
+            "lines": [
+              {
+                "text": "this next clue might leave you in a different place",
+                "startTime": 2688,
+                "endTime": 6431
+              },
+              {
+                "text": "the cracks turn to show all along your face",
+                "startTime": 7216,
+                "endTime": 10630
+              },
+              {
+                "text": "get down on one knee and i'll make you a knight",
+                "startTime": 11415,
+                "endTime": 14830
+              },
+              {
+                "text": "and step out of that shell into the limelight",
+                "startTime": 15606,
+                "endTime": 18703
+              },
+              {
+                "text": "oh wait you can't go in there's no snacks allowed",
+                "startTime": 20280,
+                "endTime": 24249
+              },
+              {
+                "text": "what a shame time to lay down and look at the clouds",
+                "startTime": 24915,
+                "endTime": 28652
+              }
+            ]
+          },
+          "options": { "fadeIn": 1200 }
+        },
+        {
+          "type": "inputTextGroup",
+          "content": "",
+          "validation": {
+            "validationType": "textArray",
+            "value": [["m", "o", "v", "i", "e", "s"]],
+            "defaultValue": [["", "", "", "", "", ""]],
+            "options": { "caseInsensitive": true }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/books.png",
+      "hint": "I hope you're having a whale of a time",
+      "elements": [
+        {
+          "type": "scrollingText",
+          "content": {
+            "src": "/uploads/7b26b4e4-4131-45e7-b73c-6b15d6076bb4.wav",
+            "lines": [
+              {
+                "text": "time to leave maine we've all had our fill",
+                "startTime": 4578,
+                "endTime": 8065
+              },
+              {
+                "text": "lobster and oysters are just run-of-the-mill",
+                "startTime": 9226,
+                "endTime": 12360
+              },
+              {
+                "text": "let's take a trip will start with fair Paris",
+                "startTime": 13330,
+                "endTime": 17016
+              },
+              {
+                "text": "define love here you'll need more than a key",
+                "startTime": 18595,
+                "endTime": 21576
+              },
+              {
+                "text": "next up berlin let your worries i'll cease",
+                "startTime": 22752,
+                "endTime": 25877
+              },
+              {
+                "text": "instead look it over and see if fall into piece",
+                "startTime": 27347,
+                "endTime": 30429
+              }
+            ]
+          },
+          "options": { "fadeIn": 1200 }
+        },
+        {
+          "type": "inputText",
+          "content": "",
+          "validation": {
+            "validationType": "text",
+            "value": "berlin",
+            "options": { "caseInsensitive": true }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/blackcat.png",
+      "hint": "Fish drinking beer and bad first dates"
+      "elements": [
+        {
+          "type": "scrollingText",
+          "content": {
+            "src": "/uploads/bada1fb0-7219-47af-b5ac-aeef4e3cd6c1.wav",
+            "lines": [
+              {
+                "text": "close your eyes and little waves lolita sleep",
+                "startTime": 4891,
+                "endTime": 9326
+              },
+              {
+                "text": "dreams of diving off cliff tops to ocean so deep",
+                "startTime": 10426,
+                "endTime": 13835
+              },
+              {
+                "text": "face whisk you away till i'm far far away",
+                "startTime": 14605,
+                "endTime": 18049
+              },
+              {
+                "text": "at the top of a mountain there's a price to be paid",
+                "startTime": 18729,
+                "endTime": 21614
+              },
+              {
+                "text": "offers of glittering diamonds in exchange for his soul",
+                "startTime": 22788,
+                "endTime": 26221
+              },
+              {
+                "text": "night is coming and it's for you whom the bell tolls",
+                "startTime": 27083,
+                "endTime": 30625
+              }
+            ]
+          },
+          "options": { "fadeIn": 1200 }
+        },
+        {
+          "type": "clock",
+          "content": "",
+          "validation": {
+            "validationType": "datetime",
+            "value": {
+              "hour": 1,
+              "minute": 50
+            },
+            "options": { "maxSecondsDifference": 120 }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    },
+    {
+      "mapIcon": "/images/icons/christmastree.jpg",
+      "hint": "let's get pizza and watch the sunrise",
+      "elements": [
+        {
+          "type": "scrollingText",
+          "content": {
+            "src": "/uploads/4d148755-3e1b-45b4-9f76-e302051d4f76.wav",
+            "lines": [
+              {
+                "text": "the spider dangles from its web and crosses the street",
+                "startTime": 2671,
+                "endTime": 6409
+              },
+              {
+                "text": "there's a chill in the air and cries beneath your feet",
+                "startTime": 7672,
+                "endTime": 11324
+              },
+              {
+                "text": "he'll steal your soul unless you hold your breath",
+                "startTime": 12395,
+                "endTime": 15397
+              },
+              {
+                "text": "but real you might there's no avoiding death",
+                "startTime": 16278,
+                "endTime": 19311
+              },
+              {
+                "text": "in times of lost hope think back to the birds",
+                "startTime": 20090,
+                "endTime": 23407
+              },
+              {
+                "text": "not the trail beer guide behind resting words",
+                "startTime": 24077,
+                "endTime": 27434
+              },
+              {
+                "text": "because the christmas have comp it's time to make amends",
+                "startTime": 28900,
+                "endTime": 32552
+              },
+              {
+                "text": "define freedom you've been seeking at the rope's end",
+                "startTime": 33424,
+                "endTime": 35744
+              },
+              { "text": "science", "startTime": 38585, "endTime": 38692 }
+            ]
+          },
+          "options": { "fadeIn": 1200 }
+        },
+        {
+          "type": "inputText",
+          "content": "",
+          "validation": {
+            "validationType": "text",
+            "value": "eastend",
+            "options": { "caseInsensitive": true }
+          },
+          "options": { "fadeIn": 1200 }
+        }
+      ]
+    }
+  ]
+  //carmen sandiego
